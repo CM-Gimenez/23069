@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0 1vw;
+  height: 10vh;
+  background-color: rgb(95, 95, 95);
+  color: aliceblue;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  background-color: rgb(200, 200, 200);
+  margin: 1vh;
+  padding: auto;
+  overflow: auto;
+  overflow-wrap: inherit;
+}
+
+.section-container-turn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.turn-container {
+  margin: 0 auto;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: flex-start;
+  width: 80vw;
+  padding: 1vw 1vh;
+  flex-direction: column;
+  -webkit-box-shadow: 25px -16px 30px 3px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 25px -16px 30px 3px rgba(0, 0, 0, 0.6);
+  box-shadow: 25px -16px 30px 3px rgba(0, 0, 0, 0.6);
+}
+.turn {
+  border: 1px black solid;
+  border-radius: 5px;
+  width: 100%;
+  margin: 1px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.tittle{}
+
+.date-turns input{
+  margin: 2px;
+}
+
+.turn a {
+  margin: 1vh;
+  text-decoration: none;
+  -webkit-text-fill-color:aqua;
+  -webkit-text-stroke: 0.5px black;
+}
+.turn a:hover {
+  -webkit-text-fill-color:0.5px black;
+  -webkit-text-stroke: aqua;
+}
+
+.turn img {
+  max-width: 70px;
+  max-height: 70px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: rgb(95, 95, 95);
+}
+
+.footer-container a {
+  padding: 1vh;
+  background-attachment: fixed;
+  background-color: rgb(255, 255, 255);
+  border-radius: 16px;
+  color: black;
+  text-decoration: none;
+}
+.footer-container  a:hover {
+  color: chocolate;
+}
+
+@media(max-width: 520px) {
+
+  .header-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+  }
+  
+}

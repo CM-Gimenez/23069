@@ -1,0 +1,42 @@
+:root {
+  /*variables
+    --nombre:valor; */
+  --primaryColor: green;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.miContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  height: 10vh;
+  background-color: rgb(95, 95, 95);
+  color: aliceblue;
+}
+.miMain {
+  height: 75vh;
+  background-color: rgb(150, 150, 150);
+}
+
+.miRow {
+    height: inherit;
+}
+
+.left{
+    background-color: rgb(200,200,200);
+    border-radius: 5px;
+}
+
+.right{
+    background-color: rgb(200,200,200);
+    border-radius: 5px;
+}
+
+.footer{
+    height: 15vh;
+    background-color: rgb(95, 95, 95);
+}

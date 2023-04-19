@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+
+.header{
+    padding: 1vh 1vw;
+    display: flex;
+    background-color:burlywood;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    font-size: 2vh;
+}
+.main-content{
+    background-color: rgb(53, 18, 87);
+    height: 85vh;
+}
+
+.section-videos-turns{
+    display: flex;
+    height: 100%;
+}
+
+.videos-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    width: 70vw;
+}
+
+.videos-container iframe{
+    padding: 1vh;
+    height: 70vh;
+    width: 100vw;
+}
+
+.turns-container{
+    background-color: aliceblue;
+    width: 30vw;
+    
+}
+
+.turns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+    margin: 1vh;
+    padding: 0.5vw;
+    border-radius: 5px;
+    
+
+}
+
+.btn{
+    padding: 2vh;
+    background-color: transparent;
+    border: none;
+}
+.btn:hover{
+    border: 1px beige solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer{
+    height: 5vh;
+}
+
+.marquesina-conatiner{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+}
